@@ -1,10 +1,10 @@
 <h1 align="center">ExtractKit</h1>
 
-###what is this??
+### what is this??
 
     This is a Easy Scrapper for scrapping essential data from web
 
-##What can it Scrape?
+## What can it Scrape?
 
 * **[Price and Key Specs of car](#scrap-car-data)** 
 * **[Price and Key Specs of bike](#scrap-bike-data)**, 
@@ -13,7 +13,7 @@
 * **[Scarap Price and details of PC Building components](#scrap-pc-components)**
 * **[Scrap Live News and other Archived News](#scrap-news-data)**
 
-##How to use this??
+## How to use this??
 
 So simple!! Just go and type
 
@@ -22,11 +22,11 @@ pip install ExtractKit
 ```
 Bam!! You just installed a great scraping tool
 
-##How to use in python??
+## How to use in python??
 
     import ExtractKit as ekit #or whatever
 
-##Detailed documentation
+## Detailed documentation
 
 ### Scrap Car Data
 This scrapes car specification from [Carwale Website](https://www.carwale.com/)
@@ -38,7 +38,7 @@ To Scrap car Specification,
     data = bike.extractBike('hyundai',"creta")
     print(data)
 
-####extractCar(brand, model),
+#### extractCar(brand, model),
 
 **Parameters,**
 **brand** - string data type, enter the brand name of the car you want to search
@@ -62,7 +62,7 @@ To Scrap Bike Specification,
     data = bike.extractBike('yamaha',"R15")
     print(data)
 
-####extractBike(brand, model)
+#### extractBike(brand, model)
 
 **Parameters,**
 **brand** - string data type, enter the brand name of the bike you want to search
