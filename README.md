@@ -35,7 +35,7 @@ To Scrap car Specification,
 
     from ExtractKit import carExtractor as car
 
-    data = bike.extractBike('hyundai',"creta")
+    data = car.extractCar('hyundai',"creta")
     print(data)
 
 #### extractCar(brand, model),
